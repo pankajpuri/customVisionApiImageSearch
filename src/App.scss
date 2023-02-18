@@ -1,0 +1,53 @@
+$font-style:source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace !important;
+$h2-color:#e83e8c !important;
+.display-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.landing-section{
+    height: 600px !important;
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: inherit;
+    }
+}
+
+.searchdiv{
+    height: 600px;
+    position: relative;
+    h1{
+    top: 5%;
+    font-family: $font-style;
+    position: absolute;
+    text-align: start;
+    font-weight: 800;
+    }
+
+    
+    .row{
+        width: 100%;
+        position:absolute;
+       p{
+        font-family: $font-style;
+        font-weight: 700 !important;
+        line-height: 1rem !important;
+        color: $h2-color ;
+        letter-spacing: 0.2em;
+        line-height: 1.2;
+       }
+     .form-control{
+        width: 25%;
+        }
+    .display-result{
+        position:absolute;
+        top:50%;
+        text-align: center;
+    }
+    
+        
+    }
+}
