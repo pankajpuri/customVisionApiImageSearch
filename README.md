@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Hi, I am Pankaj Puri
 
-In the project directory, you can run:
+## About The Project:
 
-### `npm start`
+### Task 1. Prototype to Showcase AI Solution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project 1. Build an application to find Similar Cars
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Prototype a solution that allows a user to upload the picture of a car, and then find a similar car in their stock to recommend to customer. Build an application (either runs on your laptop or on the cloud) that can recognise motor vehicles (even better if it recognises certain types of vehicles, e.g. sedan vs hatchback) using a cloud-based AI service on Microsoft Azure. 
 
-### `npm test`
+The following resources may help to understand what is this project is about an what is Computer vision service on Azure:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+REQUIRED Computer Vision service on Azure:  https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/
 
-### `npm run build`
+### Built With
+- `React.JS`
+- `Bootstrap`
+- `Computer Vision API`
+- `Axios`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Getting Started
+To run this programme you need 
+- Visual Studio Code.
+- You can download VSCode using following link [VSCODE](https://code.visualstudio.com/download)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- You need to install node [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- Go to your Terminal and install npm
+- npm type in your terminal `npm install npm@latest -g`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to your terminal and follow the instruction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Clone the repo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`git clone https://github.com/pankajpuri/turnerscarsapi.git`
+- Install NPM packages
 
-## Learn More
+ `npm install`
+ 
+- To run the application type
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ `node start`
+ - You can download all/any images under /public/images folder and upload any images on the the apllication to see the result.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Please visit my portfolio by clicking the link below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://pankajpuri.github.io/portfolio/](https://pankajpuri.github.io/portfolio/)
