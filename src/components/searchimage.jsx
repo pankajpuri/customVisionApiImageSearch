@@ -15,8 +15,12 @@ const SeachImage = () => {
     const binaryData = new FormData();
     binaryData.append("image", image);
 
-    const apiKey = "replace this with your api key";
-    const endpoint = "replace this with your api endpoint here";
+    const apiKey = "66147c7095414545b752d63bd67b093a";
+    const endpoint =
+      "https://australiaeast.api.cognitive.microsoft.com/customvision/v3.0/Prediction/90f65b3c-32e8-4747-b9c3-95d8bfbed224/classify/iterations/Iteration2/image";
+
+    // const apiKey = "replace this with your api key";
+    // const endpoint = "replace this with your api endpoint here";
 
     const headers = {
       "Content-Type": "application/octet-stream",
